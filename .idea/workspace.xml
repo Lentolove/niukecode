@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="011fd72f-4c17-42da-ae3d-2c3a76bdeba1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/niukecode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/leetcode/Solution12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/leetcode/Solution13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/leetcode/Solution31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/niuke2018/Q11_疯狂队列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/niuke2018/Q15_判断题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/niuke2018/Q20_字符串价值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q10_斐波那契额数列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q11_青蛙跳台阶.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q12_青蛙变态台阶跳.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q14_duplicateInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q15_二维数组中的查找.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q16_替换空格.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q17_从尾到到头打印链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q18_重建二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q19_二叉树的下一个节点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q1_旋转数组的最小值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q20_机器人的运动范围.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q21_剪绳子.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q21_调整数组顺序使奇数位于偶数前面.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q22_二进制中1的个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q23_数值的整数次方.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q24_打印从1到最大的n位数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q25_删除链表的节点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q26_删除链表中重复的节点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q27_正则表达式匹配.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q28_表示数值的字符串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q29_链表中倒数第k个节点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q2_矩阵中的路径.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q30_复杂链表的复制.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q31_序列化二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q32_字符串的排列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q33_八皇后问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q34_数组中出现次数超过一半.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q35_最小的k个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q36_数据流中的中位数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q37_连续子数组的最大值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q3_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q9_用两个栈实现队列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/TreeLinkNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/offer/TreeNode.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsp/niuke2018/Q15_判断题.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q30_复杂链表的复制.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsp/leetcode/Solution13.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q29_链表中倒数第k个节点.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q23_数值的整数次方.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q21_剪绳子.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q9_用两个栈实现队列.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsp/offer/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsp/leetcode/Solution31.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tsp/offer/TreeLinkNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/tsp/offer/TreeLinkNode.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="16" />
+    <option name="y" value="18" />
+    <option name="width" value="922" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="niukecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niukecode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niukecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niukecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niukecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niukecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niukecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niukecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IDEA\niukecode\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="011fd72f-4c17-42da-ae3d-2c3a76bdeba1" name="Default Changelist" comment="" />
+      <created>1561893153418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561893153418</updated>
+      <workItem from="1561893157229" duration="300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="300000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="16" y="18" width="922" height="1040" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33062646" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/tsp/niuke2018/Q15_判断题.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q30_复杂链表的复制.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsp/leetcode/Solution13.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q29_链表中倒数第k个节点.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q23_数值的整数次方.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q21_剪绳子.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsp/offer/Q9_用两个栈实现队列.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsp/offer/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsp/leetcode/Solution31.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsp/offer/TreeLinkNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
