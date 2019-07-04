@@ -1,4 +1,4 @@
-package tsp.leetcode;
+package tsp.leetcode.dynamic_planning;
 
 /**
  * 不同路径

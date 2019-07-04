@@ -1,4 +1,4 @@
-package tsp.leetcode;
+package tsp.leetcode.dynamic_planning;
 
 /**
  * 给定两个单词Word 1和Word2，找到将word 1转换为Word2所需的最小步骤数。

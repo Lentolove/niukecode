@@ -1,4 +1,4 @@
-package tsp.leetcode;
+package tsp.leetcode.dynamic_planning;
 
 /**
  *  一种包含字母从 A - Z 编码到数字的消息，使用以下映射：

@@ -1,4 +1,4 @@
-package tsp.leetcode;
+package tsp.leetcode.dynamic_planning;
 
 import java.util.ArrayList;
 import java.util.Arrays;

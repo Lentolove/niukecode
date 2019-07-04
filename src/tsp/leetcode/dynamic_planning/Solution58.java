@@ -1,8 +1,7 @@
-package tsp.leetcode;
+package tsp.leetcode.dynamic_planning;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * 给定可能包含重复项的整数集合，请返回所有可能的子集。

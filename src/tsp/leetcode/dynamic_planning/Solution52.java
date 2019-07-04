@@ -1,4 +1,4 @@
-package tsp.leetcode;
+package tsp.leetcode.dynamic_planning;
 
 /**
  * 题目：交错字符串  分类：动态规划

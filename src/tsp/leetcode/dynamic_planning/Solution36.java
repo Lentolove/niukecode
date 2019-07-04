@@ -1,4 +1,4 @@
-package tsp.leetcode;
+package tsp.leetcode.dynamic_planning;
 
 /**  动态规划
  * 给定一个字符串S和一个字符串T，在S中计数T的不同子序列数。

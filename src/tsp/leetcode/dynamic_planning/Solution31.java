@@ -1,4 +1,4 @@
-package tsp.leetcode;
+package tsp.leetcode.dynamic_planning;
 /**
  * 给定一个三角形，从上到下寻找最小路径和。每一步您都可以移动到下面行中的相邻数字。
  * [

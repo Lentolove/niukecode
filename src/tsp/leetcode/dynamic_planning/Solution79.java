@@ -1,4 +1,4 @@
-package tsp.leetcode;
+package tsp.leetcode.dynamic_planning;
 
 /**
  * 你在爬楼梯。达到顶峰需要n步。每次你可以爬1或2步。
