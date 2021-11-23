@@ -12,7 +12,6 @@ import static tsp.sort.Utils.swap;
  * 稳定
  */
 public class Q1_冒泡排序 {
-
     public static void main(String[] args) {
         int[] nums = {1, 5, 2, 6, 7, 2, 4, 5, 9, 2, 3, 1, 5};
         bubble_sort1(nums);
@@ -48,7 +47,5 @@ public class Q1_冒泡排序 {
             if (!flag) break;
         }
     }
-
-
 
 }

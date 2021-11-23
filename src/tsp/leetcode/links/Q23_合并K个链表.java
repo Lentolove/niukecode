@@ -21,7 +21,7 @@ import java.util.PriorityQueue;
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/merge-k-sorted-lists
  */
-public class Solution_23 {
+public class Q23_合并K个链表 {
 
     /**
      *  方法一：暴力法
@@ -53,11 +53,8 @@ public class Solution_23 {
         int len = lists.length;
         //构造优先队列 默认是从小到大的排序
 //        PriorityQueue<ListNode> pq = new PriorityQueue<>(len,Comparator.comparingInt(a->a.val));
-        PriorityQueue<ListNode> pq = new PriorityQueue<>(len, new Comparator<ListNode>() {
-            @Override
-            public int compare(ListNode o1, ListNode o2) {
-                return o1.val-o2.val; //从小到大  o2.val - o1.val 从大到小
-            }
+        PriorityQueue<ListNode> pq = new PriorityQueue<>(len, (o1, o2) -> {
+            return o1.val-o2.val; //从小到大  o2.val - o1.val 从大到小
         });
         for (ListNode node:lists) {
             if (node!=null){

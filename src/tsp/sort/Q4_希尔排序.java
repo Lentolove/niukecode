@@ -22,7 +22,7 @@ public class Q4_希尔排序 {
      */
     public static void shell_sort(int[] nums) {
         int inCre = nums.length;
-        while (true) {
+        do {
             inCre = inCre / 2;
             for (int i = 0; i < inCre; i++) {
                 for (int j = i + inCre; j < nums.length; j += inCre) {
@@ -35,8 +35,7 @@ public class Q4_希尔排序 {
                     }
                 }
             }
-            if (inCre == 1) break;
-        }
+        } while (inCre != 1);
     }
 
 }

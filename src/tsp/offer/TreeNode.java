@@ -11,10 +11,16 @@ public class TreeNode {
 
     public static TreeNode creatTreeNode() {
         TreeNode a = new TreeNode(1);
-        TreeNode c = new TreeNode(3);
-        TreeNode d = new TreeNode(4);
-        a.left = c;
-        a.right = d;
-        return a;
+        TreeNode b = new TreeNode(3);
+        TreeNode c = new TreeNode(5);
+        TreeNode d = new TreeNode(2);
+        TreeNode e = new TreeNode(6);
+        TreeNode f = new TreeNode(4);
+        b.left = a;
+        b.right = c;
+        a.left = d;
+        a.right = e;
+        d.left = f;
+        return b;
     }
 }

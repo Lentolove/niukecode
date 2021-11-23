@@ -22,7 +22,7 @@ public class Q6_快排 {
 
     public static void quickSort(int[] nums, int l, int r) {
         if (l >= r) return;
-        int i = l, j = r, key = nums[l];
+        int i = l, j = r, key = nums[l];//基准为，每次循环将保证准基的左边的数比它都小，右边的都比它大
         while (i < j) {
             //j先从右边开始走,找到第一个比 key 小的数字
             while (i < j && nums[j] >= key) j--;
