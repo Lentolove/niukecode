@@ -20,42 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="011fd72f-4c17-42da-ae3d-2c3a76bdeba1" name="Default Changelist" comment="1.同步代码">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cxm/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cxm/Solution5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cxm/Solution6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/md5/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/Cxm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Q146_缓存机制.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/leetcode/backtract/Q17_电话号码的字母组合.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/leetcode/backtract/Q39_组合总数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/leetcode/backtract/Q79_单词搜.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/leetcode/offer/Q57_和为S的连续正数数列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/leetcode/offer/Q66_构建成绩数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q60_n个骰子点数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/offer/Q62_圆圈中最后剩下的数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/sort/Q7_堆排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/sort/二分法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/Q_二分法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Q297_二叉树的序列化与反序列化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Q312_戳气球.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Q34_在排序数组中查找元素的第一个和最后一个位置.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Q581_最短无序连续子数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zuoshen/Section12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zuoshen/sort/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zuoshen/sort/Q1_异或运算.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zuoshen/sort/Section1_排序算法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zuoshen/tree/Section7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/listnode/Q19.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/listnode/Q19.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_23$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q35_最小的k个数$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q35_最小的k个数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q35_最小的k个数.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q1_冒泡排序.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q1_冒泡排序.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q4_希尔排序.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q4_希尔排序.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q6_快排.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q6_快排.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsp/leetcode/links/Solution_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsp/leetcode/links/Q23_合并K个链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsp/offer/Q35_最小的k个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsp/offer/Q35_最小的k个数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsp/offer/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsp/offer/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsp/sort/Q1_冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsp/sort/Q1_冒泡排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsp/sort/Q4_希尔排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsp/sort/Q4_希尔排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsp/sort/Q6_快排.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsp/sort/Q6_快排.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloadfiles.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/二分法.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/二分法.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tsp/sort/二分法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsp/sort/二分法.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +45,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -89,28 +70,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../android-learning" />
+    <property name="last_opened_file_path" value="D:/software_for_code/MBU/ADIS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\IDEA\niukecode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q146_缓存机制">
-    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="md5.MD5Util" />
+  <component name="RunManager" selected="Application.Section12">
+    <configuration name="Q_二分法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tsp.Q_二分法" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="md5.*" />
+          <option name="PATTERN" value="tsp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q146_缓存机制" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tsp.hot100.Q146_缓存机制" />
+    <configuration name="Section11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.tree.Section11" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tsp.hot100.*" />
+          <option name="PATTERN" value="zuoshen.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q17_电话号码的字母组合" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tsp.leetcode.backtract.Q17_电话号码的字母组合" />
+    <configuration name="Section12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.Section12" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tsp.leetcode.backtract.*" />
+          <option name="PATTERN" value="zuoshen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q79_单词搜" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tsp.leetcode.backtract.Q79_单词搜" />
+    <configuration name="Section1_排序算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.sort.Section1_排序算法" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tsp.leetcode.backtract.*" />
+          <option name="PATTERN" value="zuoshen.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cxm.Solution6" />
+    <configuration name="Section7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.tree.Section7" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cxm.*" />
+          <option name="PATTERN" value="zuoshen.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,24 +159,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q146_缓存机制" />
-        <item itemvalue="Application.MD5Util" />
-        <item itemvalue="Application.Q79_单词搜" />
-        <item itemvalue="Application.Q17_电话号码的字母组合" />
-        <item itemvalue="Application.Solution6" />
+        <item itemvalue="Application.Section12" />
+        <item itemvalue="Application.Section11" />
+        <item itemvalue="Application.Section7" />
+        <item itemvalue="Application.Section1_排序算法" />
+        <item itemvalue="Application.Q_二分法" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +225,13 @@
       <workItem from="1635388817349" duration="5366000" />
       <workItem from="1636981311473" duration="619000" />
       <workItem from="1637046496768" duration="15000" />
+      <workItem from="1637671164407" duration="3324000" />
+      <workItem from="1637833579470" duration="563000" />
+      <workItem from="1638333435576" duration="21000" />
+      <workItem from="1638359409257" duration="3884000" />
+      <workItem from="1638505061374" duration="8809000" />
+      <workItem from="1638946636673" duration="34238000" />
+      <workItem from="1639636279475" duration="14196000" />
     </task>
     <task id="LOCAL-00001" summary="1.同步代码">
       <created>1626873796403</created>
@@ -249,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627468086253</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.同步代码">
+      <created>1637671197483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637671197483</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,83 +277,92 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.同步代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1630392968220">
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1639365330247">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1630392968220" />
-    <state width="439" height="466" key="DebuggerActiveHint" timestamp="1633958064102">
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639365330247" />
+    <state width="439" height="466" key="DebuggerActiveHint" timestamp="1638360466964">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="439" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632660547872" />
-    <state width="439" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633958064102" />
-    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1634129744717">
+    <state width="439" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1638360466964" />
+    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1639636315808">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1634129744717" />
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1636349941022">
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639636315808" />
+    <state width="1877" height="251" key="GridCell.Tab.0.bottom" timestamp="1639656285692">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632707297190" />
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636349941022" />
-    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1636349941022">
+    <state width="1877" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639656285692" />
+    <state width="1877" height="251" key="GridCell.Tab.0.center" timestamp="1639656285692">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632707297190" />
-    <state width="1877" height="349" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636349941022" />
-    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1636349941022">
+    <state width="1877" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639656285692" />
+    <state width="1877" height="251" key="GridCell.Tab.0.left" timestamp="1639656285691">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632707297190" />
-    <state width="1877" height="349" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636349941022" />
-    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1636349941022">
+    <state width="1877" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639656285691" />
+    <state width="1877" height="251" key="GridCell.Tab.0.right" timestamp="1639656285692">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632707297190" />
-    <state width="1877" height="349" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636349941022" />
-    <state width="1877" height="365" key="GridCell.Tab.1.bottom" timestamp="1634708937765">
+    <state width="1877" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639656285692" />
+    <state width="1877" height="218" key="GridCell.Tab.1.bottom" timestamp="1639553822943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="268" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632707297190" />
-    <state width="1877" height="365" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1634708937765" />
-    <state width="1877" height="365" key="GridCell.Tab.1.center" timestamp="1634708937765">
+    <state width="1877" height="218" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639553822943" />
+    <state width="1877" height="218" key="GridCell.Tab.1.center" timestamp="1639553822943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="268" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632707297190" />
-    <state width="1877" height="365" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1634708937765" />
-    <state width="1877" height="365" key="GridCell.Tab.1.left" timestamp="1634708937764">
+    <state width="1877" height="218" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639553822943" />
+    <state width="1877" height="218" key="GridCell.Tab.1.left" timestamp="1639553822942">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="268" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632707297190" />
-    <state width="1877" height="365" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1634708937764" />
-    <state width="1877" height="365" key="GridCell.Tab.1.right" timestamp="1634708937765">
+    <state width="1877" height="218" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639553822942" />
+    <state width="1877" height="218" key="GridCell.Tab.1.right" timestamp="1639553822943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="268" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632707297190" />
-    <state width="1877" height="365" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1634708937765" />
-    <state x="880" y="97" key="SettingsEditor" timestamp="1626787786531">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="880" y="97" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626787786531" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1627468125098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1627468125098" />
-    <state x="1234" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626874602421">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1234" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626874602421" />
-    <state x="2582" y="252" width="596" height="536" key="find.popup" timestamp="1630385113097">
+    <state width="1877" height="218" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639553822943" />
+    <state x="2104" y="86" key="MergeDialog" timestamp="1637671223530">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2582" y="252" width="596" height="536" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1630385113097" />
+    <state x="2104" y="86" key="MergeDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637671223530" />
+    <state x="2515" y="280" key="MultipleFileMergeDialog" timestamp="1637671223536">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2515" y="280" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637671223536" />
+    <state x="2381" y="164" key="SettingsEditor" timestamp="1639552282059">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639552282059" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1637671259751">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637671259751" />
+    <state x="2683" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637671235860">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2683" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637671235860" />
+    <state x="2610" y="279" key="extract.method.dialog" timestamp="1638936955754">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="279" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1638936955754" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1633958419621">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633958419621" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1632662202036">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1639042464613">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632662202036" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639042464613" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,6 +416,26 @@
           <url>file://$PROJECT_DIR$/src/tsp/leetcode/backtract/Q17_电话号码的字母组合.java</url>
           <line>38</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tsp/hot100/Q312_戳气球.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tsp/hot100/Q297_二叉树的序列化与反序列化.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tsp/hot100/Q34_在排序数组中查找元素的第一个和最后一个位置.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zuoshen/sort/Section1_排序算法.java</url>
+          <line>283</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
