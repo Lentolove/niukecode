@@ -31,9 +31,13 @@ public class Section11 {
 //        System.out.println(maxValue(weights, values, bag));
 //        System.out.println(dpWay(weights, values, bag));
 
+        //纸牌博弈问题
+        int[] arr = {1,2,100,4};
+        System.out.println(win(arr));
+        System.out.println(win2(arr));
 
         //N皇后问题
-        System.out.println(queue(8));
+//        System.out.println(queue(8));
 
     }
 
@@ -288,8 +292,30 @@ public class Section11 {
     public static int s(int[] arr, int l, int r) {
         //base case:当前是后手，如果只剩一个元素，那只能被另一个先手拿走了
         if (l == r) return 0;
-        // 当前是后手，好的被绝顶聪明的先手选走了相当于是先手的决策剩下的当前牌，留下最差的min
+        //当前是后手，拿牌的区间是[l - r]，既然是后手，我只能拿[l+1,r]和[l.r-1]区间（谁拿谁就是当前过程的先手）
+        //既然我是后手，那么先手的那个人只会把最小的结果留给我，然后过程交给我了，然后我就在[l+1,r]和[l.r-1]区间先手。
         return Math.min(f(arr, l + 1, r), f(arr, l, r - 1));
+    }
+
+    /**
+     * dp动态规划的方式
+     */
+    public static int win2(int[] arr) {
+        if (arr == null || arr.length == 0) return 0;
+        int n = arr.length;
+        //先手函数
+        int[][] f = new int[n][n];
+        int[][] s = new int[n][n];
+        for (int r = 0; r < n; r++) {
+            //先手函数base case:[r,r] 表示对角线，只有一个元素，f先手先拿
+            f[r][r] = arr[r];
+            for (int l = r - 1; l >= 0; l--) {
+                //在l-r的区间中,dp二维数组都是依赖对方的左边和下方两个位置
+                f[l][r] = Math.max(arr[l] + s[l + 1][r], arr[r] + s[l][r - 1]);
+                s[l][r] = Math.min(f[l + 1][r], f[l][r - 1]);
+            }
+        }
+        return Math.max(f[0][n - 1], s[0][n - 1]);
     }
 
 

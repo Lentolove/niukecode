@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
 import tsp.offer.TreeNode;
 
 public class Section7 {
@@ -406,14 +407,15 @@ public class Section7 {
             this.findo2 = findo2;
         }
     }
+
     /**
      * 1、o1和o2都不在以X为头的树上
      * 2、o1和o2有一个在以X为头的树上
      * 3、o1和o2都在以X为头的树上
      */
-    public Info7 process7(Node x,Node o1,Node o2){
+    public Info7 process7(Node x, Node o1, Node o2) {
         //当前node为null，则交汇点为null，在当前子树未发现o1和o2
-        if(x == null) return new Info7(null, false, false);
+        if (x == null) return new Info7(null, false, false);
         Info7 left = process7(x.left, o1, o2);
         Info7 right = process7(x.right, o1, o2);
         //1.构建x自身的返回Info7
@@ -422,47 +424,81 @@ public class Section7 {
         boolean findo2 = x == o2 || left.findo2 || right.findo2;
         //3.o1和o2是否都在以x为头的树上,如果不是在当前这颗X节点的树上，返回空
         Node ans = null;
-        if(left.ans != null)ans = left.ans;
-        if(right.ans != null) ans = right.ans;
-        if(ans == null){
+        if (left.ans != null) ans = left.ans;
+        if (right.ans != null) ans = right.ans;
+        if (ans == null) {
             //没有在x点交汇，但是在x点子树上找到了o1和o2，则交汇点就是本身，
-            if(findo1 && findo2) ans = x;
+            if (findo1 && findo2) ans = x;
         }
         return new Info7(ans, findo1, findo2);
     }
 
-	public  Node lowestAncestor(Node head, Node o1, Node o2) {
-		return process7(head, o1, o2).ans;
-	}
+    public Node lowestAncestor(Node head, Node o1, Node o2) {
+        return process7(head, o1, o2).ans;
+    }
 
 
+    /*******************Morris遍历*********************/
 
+    public static void morris(Node head) {
+        if (head == null) return;
+        Node cur = head, mostRight = null;
+        while (cur != null) {
+            mostRight = cur.left;
+            if (mostRight != null) {
+                //1.找到左子树上最右边的节点,mostRight.right 指向 cur，要确保走到最右边的节点停止，否则进入循环
+                while (mostRight.right != null && mostRight.right != cur) {
+                    mostRight = mostRight.right;
+                }
+                //2.如果 mostRight.right 指向 null，则说明第一次来到，我们让他指向 cur
+                if (mostRight.right == null) {
+                    mostRight.right = cur;
+                    //cur指针向左移动，继续这个过程
+                    cur = cur.left;
+                    continue;
+                } else {
+                    //如果 mostRight.right 是指向 cur 的，说明是第二次来,这个时候需要断开了，恢复树
+                    mostRight.right = null;
+                }
+            }
+            //1.cur没有左子树，则cur向右移动
+            //2.或者 cur 的左子树的最右节点指向的是cur，则在  mostRight.right = null; 恢复之后，说明cur左边遍历完了，继续往右边
+            cur = cur.right;
+        }
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //morris遍历顺序：4-21-2-3-4-6-5-6-7
+    public static void morrisPre(Node head) {
+        if (head == null) return;
+        Node cur = head, mostRight = null;
+        while (cur != null) {
+            mostRight = cur.left;
+            if (mostRight != null) {
+                //1.找到左子树上最右边的节点,mostRight.right 指向 cur，要确保走到最右边的节点停止，否则进入循环
+                while (mostRight.right != null && mostRight.right != cur) {
+                    mostRight = mostRight.right;
+                }
+                //2.如果 mostRight.right 指向 null，则说明第一次来到，我们让他指向 cur
+                if (mostRight.right == null) {
+                    mostRight.right = cur;
+                    //第一次到来打印
+                    System.out.println(cur.value);
+                    //cur指针向左移动，继续这个过程
+                    cur = cur.left;
+                    continue;
+                } else {
+                    //如果 mostRight.right 是指向 cur 的，说明是第二次来,这个时候需要断开了，恢复树
+                    mostRight.right = null;
+                }
+            }else {
+                //第一次
+                System.out.println(cur.value);
+            }
+            //1.cur没有左子树，则cur向右移动
+            //2.或者 cur 的左子树的最右节点指向的是cur，则在  mostRight.right = null; 恢复之后，说明cur左边遍历完了，继续往右边
+            cur = cur.right;
+        }
+    }
 
 
     public static int getBSTSize(Node head) {
@@ -516,16 +552,33 @@ public class Section7 {
     }
 
     public static void main(String[] args) {
-        int maxLevel = 4;
-        int maxValue = 100;
-        int testTimes = 1000000;
-        for (int i = 0; i < testTimes; i++) {
-            Node head = generateRandomBST(maxLevel, maxValue);
-            if (maxSubBSTSize1(head) != maxSubBSTSize(head)) {
-                System.out.println("Oops!");
-            }
-        }
-        System.out.println("finish!");
+//        int maxLevel = 4;
+//        int maxValue = 100;
+//        int testTimes = 1000000;
+//        for (int i = 0; i < testTimes; i++) {
+//            Node head = generateRandomBST(maxLevel, maxValue);
+//            if (maxSubBSTSize1(head) != maxSubBSTSize(head)) {
+//                System.out.println("Oops!");
+//            }
+//        }
+//        System.out.println("finish!");
+
+        Node node = new Node(4);
+        Node a = new Node(2);
+        Node b = new Node(6);
+        Node c = new Node(1);
+        Node d = new Node(3);
+        Node e = new Node(5);
+        Node f = new Node(7);
+        node.left = a;
+        node.right = b;
+        a.left = c;
+        a.right = d;
+        b.left = e;
+        b.right = f;
+        morris(node);
+        morrisPre(node);
+
     }
 
 }
