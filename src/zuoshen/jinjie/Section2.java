@@ -10,6 +10,7 @@ public class Section2 {
 
         System.out.println(fb1(8));
         System.out.println(fb2(8));
+        System.out.println(fb3(8));
 //        System.out.println(horseJump2(4, 5, 3));
     }
 
@@ -107,12 +108,41 @@ public class Section2 {
         return two;
     }
 
+    /**
+     * 斐波那契数列 logn 解法
+     * 二阶递推：|a,b|
+     * |c,d|
+     */
     public static int fb3(int n) {
         if (n < 1) return 0;
         if (n == 1 || n == 2) return 1;
-        //定义二阶矩阵,通过手动计算出来
-        int[][] bas = {{1, 1}, {1, 0}};
-        return 0;
+        //1.定义二阶矩阵,通过手动计算出来
+        int[][] base = {{1, 1}, {1, 0}};
+        //2.求出 base^(n-2)次方
+        int[][] res = matrixPower(base, n - 2);
+        //3. |f(n),f(n-1)|=|f(2),f(1)|* res = a * f(2) + c * f(1);
+        return res[0][0] + res[1][0];
+    }
+
+    /**
+     * 矩阵的n次方，快速幂的方法
+     */
+    public static int[][] matrixPower(int[][] m, int n) {
+        int[][] res = new int[m.length][m[0].length];
+        //1.构造单位矩阵
+        for (int i = 0; i < m.length; i++) {
+            res[i][i] = 1;
+        }
+        //2.快速幂求矩阵的n次方
+        int[][] temp = m;
+        for (; n != 0; n >>= 1) {
+            //3.如果当前二进制位是1，则相乘
+            if ((n & 1) != 0) {
+                res = multiMatrix(res, temp);
+            }
+            temp = multiMatrix(temp, temp);
+        }
+        return res;
     }
 
 
@@ -131,5 +161,21 @@ public class Section2 {
         return res;
     }
 
+    /**
+     * 奶牛繁殖问题：
+     * 1,2,3,4,6,9
+     * f(n) = f(n-1) + f(n-3)
+     */
+    public static int cowPb(int n) {
+        if (n < 1) return 0;
+        if (n == 1 || n == 2 || n == 3) return n;
+        int[][] base = {
+                {1, 1, 0},
+                {0, 0, 1},
+                {1, 0, 0}
+        };
+        int[][] res = matrixPower(base, n - 3);
+        return 3 * res[0][0] + 2 * res[1][0] + res[2][0];
+    }
 
 }
