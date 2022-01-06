@@ -7,12 +7,12 @@ public class Q_二分法 {
 //        int[] nums = {1, 2, 3, 4, 5, 6, 7, 10, 14};
 //        System.out.println(search1(nums, 15));
 
-        int[] nums2 = {1, 2, 3, 3, 5, 6, 7, 10, 14};
-//        System.out.println(searchLeft(nums2, 3));
-//        System.out.println(searchRight(nums2, 3));
+        int[] nums2 = {1, 2, 3, 4, 5, 6, 7, 10, 14};
+//        System.out.println(searchLeft(nums2, 8));
+//        System.out.println(searchRight(nums2, 8));
 
-//        zuoShenSearchLeft(nums2, 3);
-        zuoShenSearchRight(nums2, 13);
+        zuoShenSearchLeft(nums2, 8);
+        zuoShenSearchRight(nums2, 8);
 
     }
 
@@ -25,7 +25,7 @@ public class Q_二分法 {
         int index = -1;
         while (l <= r) {
             int mid = l + ((r - l) >> 1);
-            if (arr[mid] >= value) {
+            if (value <= arr[mid]) {
                 index = mid;
                 r = mid - 1;
             } else {
@@ -44,7 +44,7 @@ public class Q_二分法 {
         int index = -1;
         while (l <= r) {
             int mid = l + ((r - l) >> 1);
-            if (arr[mid] <= value) {
+            if (value >= arr[mid]) {
                 index = mid;
                 l = mid + 1;
             } else {
@@ -125,6 +125,7 @@ public class Q_二分法 {
                 left = mid + 1;
             }
         }
+        System.out.println(left);
         return nums[left] == target ? left : -1;
     }
 
@@ -145,6 +146,7 @@ public class Q_二分法 {
                 left = mid;
             }
         }
+        System.out.println(left);
         return nums[right] == target ? right : -1;
     }
 
