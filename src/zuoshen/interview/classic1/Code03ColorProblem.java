@@ -49,8 +49,18 @@ public class Code03ColorProblem {
         for (int i = 0; i < n - 1; i++) {
             left += str[i] == 'G' ? 1 : 0;
             //如果是 R 就说明 i 的右侧少一个 rAll
-
+            rAll -= str[i] == 'R' ? 1 : 0;
+            ans = Math.min(ans, left + rAll);
         }
+        //注意0-n-1左边，右边无
+        ans = Math.min(ans, left + (str[n - 1] == 'G' ? 1 : 0));
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        String s = "RGRGR";
+        System.out.println(minPaint(s));
+        System.out.println(minPaint2(s));
     }
 
 }

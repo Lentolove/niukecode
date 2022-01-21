@@ -9,10 +9,7 @@
 package zuoshen.tree;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.PriorityQueue;
-
-import tsp.niuke.华为机试108题.Q;
 
 public class Section9 {
 
