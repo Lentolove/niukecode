@@ -19,32 +19,362 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011fd72f-4c17-42da-ae3d-2c3a76bdeba1" name="Default Changelist" comment="1.更新经典题目一">
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic1/Code04_FindMaxSquareSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic2/Code01_CreateSpecificArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic2/Code02_TreeProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic3/Code01_WaterProblem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic3/Code02_WaterProblem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic3/Code04_TheKMinOfArrayPariSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic3/Code3_ArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic4/Code01_ChooseWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic4/Code02_SnacksWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic4/Code03_MinPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic4/Code04_LCSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic4/Code05_LCSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic4/Code06_TopKTimesString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic4/Code07_TopKTimesRealTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="011fd72f-4c17-42da-ae3d-2c3a76bdeba1" name="Default Changelist" comment="2.更新课程4">
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/Solution$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/Solution$MaxQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/Solution$MedianFinder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/Solution$Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/cxm/Solution3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/cxm/Solution5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/cxm/Solution6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/md5/MD5Util$URestSigner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/md5/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/thread/ThreadTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/thread/ThreadTest$1MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/thread/ThreadTest$MyCallable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/thread/ThreadTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/Cxm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/Q_二分法.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q146_缓存机制.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q297_二叉树的序列化与反序列化$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q297_二叉树的序列化与反序列化.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q312_戳气球$Solution$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q312_戳气球$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q312_戳气球.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q34_在排序数组中查找元素的第一个和最后一个位置.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q581_最短无序连续子数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/backtract/Q17_电话号码的字母组合$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/backtract/Q17_电话号码的字母组合.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/backtract/Q39_组合总数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/backtract/Q79_单词搜$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/backtract/Q79_单词搜.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution31.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution36.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution52.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution58.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution59.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution60.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution62.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution71.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution77.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution79.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution86.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution87.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/dynamic_planning/Solution88.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Interval.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution100_50_计算x的n次方.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution101.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution101_49_字母异位词分组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution102_48_旋转图像原地.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution103_47_全排列II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution104_46_全排列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution105_45_跳跃游戏II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution106_44_通配符匹配.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution17_134.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution2$Pos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution21_130.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution22.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution23_128.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution240.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution26_123.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution27_122.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution28_121.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution29_80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution3$Pos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution31_108.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution33.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution4$UnionFind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution46.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution47.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution56.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution56_niuke$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution56_niuke.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution57.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution61_88.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution64_85.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution65_84.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution68_81.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution69.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution70_79.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution72_77.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution73_76.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution74.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution74_75.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution75_74.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution76_73.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution78_71_简化路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution80_69_x的平方根.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution81.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution82_66_加一.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution84_67_二进制求和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution90_60_第k个排列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution91_59_旋转矩阵II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution92_58_最后一个单词的长度.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution93_57_插入区间.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution94_56_合并区间.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution95_55$Index.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution95_55$Method2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution95_55$Method3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution95_55$Method4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution95_55.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/eyery/Solution97_63_最大子序和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Q23_合并K个链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/RandomListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution61.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution82.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_109.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_138.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_141.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_142.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_206.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_21.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_445.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_83.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/Solution_92.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/links/p.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Method1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Method2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Method3$Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Method3$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Method3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/S130.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution115_35_搜索插入的位置.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution116_搜索目标值在数组中的范围.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution117_33_搜索旋转排序数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution118_32_最长有效括号.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution119_31_下一个排列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution120_30_串联所有单词的子串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution121_29_两数相除.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution122_28_实现strStr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution123_27_移除元素.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution124_26_删除数组的的重复项.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution128_22_括号生成.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution129_20_有效的括号.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution131_17_电话号码的字母组合.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution132.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution132_18_四数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution133_16_最接近的三数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution134.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution134_15_三数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution135_14_最长公共前缀.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution136_13_罗马数字转整形.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution137_12_整数转罗马数字.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution138_11_盛最多雨水的容器.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution139_10_正则表达式匹配.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution140_9_回文数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution141.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution141_8_字符串转整数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution142_7_整数反转.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution143_6_Z字形变换.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution144_5_最长回文子串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution146_3_无重复字符的最长子串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution147_4_寻找两个有序数组的中位数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/Solution148_1_两数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/nums/s.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/offer/Q57_和为S的连续正数数列$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/offer/Q57_和为S的连续正数数列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/offer/Q66_构建成绩数组$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/offer/Q66_构建成绩数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/stack_quene/MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/stack_quene/MyStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/stack_quene/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/stack_quene/Solution_155.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/stack_quene/Solution_20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/stack_quene/Solution_225.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/stack_quene/Solution_503.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/stack_quene/Solution_739.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution22.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution27.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution34.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution35.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution37.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution38.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution39.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution42.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution43.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution44.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution45.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution46.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution47.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution48.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution49.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution50.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution51.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution53.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution54.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/leetcode/tree/Solution55.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Prod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q10_字符个数统计.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q11_数字颠倒.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q12_字符串反转.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q13_句子逆序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q15_字符串的连接最长路径查找.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q16_求int型正整数在内存中存储时1的个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q17_坐标移动.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q17_购物单.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q18_识别有效的ip地址和掩码并分类.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q19_简单错误记录.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q1_字符串最后一个单词长度.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q20_密码验证合格程序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q21_简单密码.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q22_汽水瓶.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q23_删除字符串中出现次数最少的字符.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q24_合唱队.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q25_数据分类处理.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q26_字符串的排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q27_查找兄弟单词.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q28_素数伴侣.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q29_字符串加解密.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q2_计算字符个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q30_字符串合并处理.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q31_单词倒排.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q32_字符串运用密码截取.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q33_整数与IP地址间的转换.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q34_图片整理.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q35_蛇形矩阵.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q36_字符串加密.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q37_统计每个月兔子的总数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q38_求小球落地5次后所经历的路程和反弹的高.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q3_明明的随机数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q4_字符串分组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q5_进制转换.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q6_质数因子.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q7_取近似值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q8_合并表记录.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q9_提取不重复的整数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke2018/Q11_疯狂队列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke2018/Q15_判断题.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke2018/Q20_字符串价值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q10_斐波那契额数列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q11_青蛙跳台阶.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q12_青蛙变态台阶跳.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q14_duplicateInArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q15_二维数组中的查找.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q16_替换空格.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q17_从尾到到头打印链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q18_重建二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q19_二叉树的下一个节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q1_旋转数组的最小值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q20_机器人的运动范围.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q21_剪绳子.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q21_调整数组顺序使奇数位于偶数前面.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q22_二进制中1的个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q23_数值的整数次方.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q24_打印从1到最大的n位数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q25_删除链表的节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q26_删除链表中重复的节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q27_正则表达式匹配.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q28_表示数值的字符串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q29_链表中倒数第k个节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q2_矩阵中的路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q30_复杂链表的复制.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q31_序列化二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q32_字符串的排列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q33_八皇后问题.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q34_数组中出现次数超过一半.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q35_最小的k个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q36_数据流中的中位数$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q36_数据流中的中位数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q37_连续子数组的最大值.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q3_Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q60_n个骰子点数$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q60_n个骰子点数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q62_圆圈中最后剩下的数字$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q62_圆圈中最后剩下的数字.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Q9_用两个栈实现队列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/RandomListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/TreeLinkNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/offer/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q1_冒泡排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q2_选择排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q3_插入排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q4_希尔排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q5_归并排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q6_快排.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Q7_堆排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/二分法.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/Section12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/book/Section4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic1/Code01_CordCoverMaxPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic1/Code02_ValidityBracket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic1/Code03ColorProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic1/Code04_FindMaxSquareSize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic2/Code01_CreateSpecificArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic2/Code02_TreeProblem$Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic2/Code02_TreeProblem$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic2/Code02_TreeProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic3/Code01_WaterProblem1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic3/Code02_WaterProblem2$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic3/Code02_WaterProblem2$NodeCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic3/Code02_WaterProblem2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic3/Code04_TheKMinOfArrayPariSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic3/Code3_ArraySum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code01_ChooseWork$Job.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code01_ChooseWork$JobCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code01_ChooseWork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code02_SnacksWays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code03_MinPathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code04_LCSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code05_LCSubstring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code06_TopKTimesString$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code06_TopKTimesString$NodeCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code06_TopKTimesString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code07_TopKTimesRealTime$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code07_TopKTimesRealTime$TopRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic4/Code07_TopKTimesRealTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic5/Code01_GetFolderTree$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic5/Code01_GetFolderTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic5/Code02_BSTtoDoubleLinkedList$Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic5/Code02_BSTtoDoubleLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic5/Code02_BSTtoDoubleLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic5/Code03_PreAndInArrayToPosArray$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic5/Code03_PreAndInArrayToPosArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/jinjie/Section1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/jinjie/Section2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/jinjie/Section3_KMP$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/jinjie/Section3_KMP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/sort/MaxHeap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/sort/Q1_异或运算.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/sort/Section1_排序算法.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$Info1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$Info2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$Info3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$Info4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$Info5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$Info6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$Info7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7$RobInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section9$Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section9$Programe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic5/Code01_GetFolderTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic5/Code02_BSTtoDoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic5/Code03_PreAndInArrayToPosArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic1/Code01_CordCoverMaxPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic1/Code01_CordCoverMaxPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section9$Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section9$Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section9$Programe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section9$Programe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/tree/Section9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsp/niuke/华为机试108题/Q.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zuoshen/interview/classic1/Code03ColorProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic1/Code03ColorProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zuoshen/sort/Section1_排序算法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zuoshen/sort/Section1_排序算法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zuoshen/tree/Section9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zuoshen/tree/Section9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zuoshen/interview/classic4/Code07_TopKTimesRealTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic4/Code07_TopKTimesRealTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,13 +433,13 @@
       <recent name="F:\IDEA\niukecode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code06_TopKTimesString">
-    <configuration name="Code01_ChooseWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic4.Code01_ChooseWork" />
+  <component name="RunManager" selected="Application.Code03_PreAndInArrayToPosArray">
+    <configuration name="Code02_BSTtoDoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic5.Code02_BSTtoDoubleLinkedList" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zuoshen.interview.classic4.*" />
+          <option name="PATTERN" value="zuoshen.interview.classic5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,25 +447,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code03_MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic4.Code03_MinPathSum" />
+    <configuration name="Code03_PreAndInArrayToPosArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic5.Code03_PreAndInArrayToPosArray" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zuoshen.interview.classic4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code04_LCSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic4.Code04_LCSubsequence" />
-      <module name="niukecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zuoshen.interview.classic4.*" />
+          <option name="PATTERN" value="zuoshen.interview.classic5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,6 +486,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code07_TopKTimesRealTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic4.Code07_TopKTimesRealTime" />
+      <module name="niukecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zuoshen.interview.classic4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -182,11 +512,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code03_PreAndInArrayToPosArray" />
+        <item itemvalue="Application.Code02_BSTtoDoubleLinkedList" />
+        <item itemvalue="Application.Code07_TopKTimesRealTime" />
         <item itemvalue="Application.Code06_TopKTimesString" />
         <item itemvalue="Application.Code05_LCSubstring" />
-        <item itemvalue="Application.Code04_LCSubsequence" />
-        <item itemvalue="Application.Code03_MinPathSum" />
-        <item itemvalue="Application.Code01_ChooseWork" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +580,7 @@
       <workItem from="1641873209765" duration="20000" />
       <workItem from="1641905766188" duration="1692000" />
       <workItem from="1641969613926" duration="2378000" />
-      <workItem from="1642076932823" duration="42456000" />
+      <workItem from="1642076932823" duration="58649000" />
     </task>
     <task id="LOCAL-00001" summary="1.同步代码">
       <created>1626873796403</created>
@@ -301,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641470253796</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2.更新课程4">
+      <created>1642762206653</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642762206653</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,75 +660,76 @@
     <MESSAGE value="1.同步代码" />
     <MESSAGE value="1.更新KMP算法" />
     <MESSAGE value="1.更新经典题目一" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.更新经典题目一" />
+    <MESSAGE value="2.更新课程4" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.更新课程4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1642761328287">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1643011382079">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642761328287" />
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643011382079" />
     <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639365330247" />
     <state x="2635" y="221" key="#xdebugger.evaluate" timestamp="1640090285655">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2635" y="221" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640090285655" />
-    <state width="439" height="463" key="DebuggerActiveHint" timestamp="1642682879649">
+    <state width="439" height="463" key="DebuggerActiveHint" timestamp="1643014661953">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="439" height="463" key="DebuggerActiveHint/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642682879649" />
+    <state width="439" height="463" key="DebuggerActiveHint/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643014661953" />
     <state width="439" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640090283364" />
     <state x="740" y="272" key="FileChooserDialogImpl" timestamp="1642751416242">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="740" y="272" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642751416242" />
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639662164449" />
-    <state width="1877" height="105" key="GridCell.Tab.0.bottom" timestamp="1642757342808">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1643016105423">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="105" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642757342808" />
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643016105423" />
     <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640830531977" />
     <state width="1877" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639733898700" />
     <state width="1877" height="461" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="105" key="GridCell.Tab.0.center" timestamp="1642757342808">
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1643016105423">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="105" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642757342808" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643016105423" />
     <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640830531977" />
     <state width="1877" height="149" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639733898699" />
     <state width="1877" height="461" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="105" key="GridCell.Tab.0.left" timestamp="1642757342808">
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1643016105423">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="105" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642757342808" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643016105423" />
     <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640830531977" />
     <state width="1877" height="149" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639733898699" />
     <state width="1877" height="461" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402694" />
-    <state width="1877" height="105" key="GridCell.Tab.0.right" timestamp="1642757342808">
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1643016105423">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="105" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642757342808" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643016105423" />
     <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640830531977" />
     <state width="1877" height="149" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639733898700" />
     <state width="1877" height="461" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="272" key="GridCell.Tab.1.bottom" timestamp="1642683012569">
+    <state width="1877" height="272" key="GridCell.Tab.1.bottom" timestamp="1643016072743">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642683012569" />
+    <state width="1877" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643016072743" />
     <state width="1877" height="461" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402731" />
-    <state width="1877" height="272" key="GridCell.Tab.1.center" timestamp="1642683012569">
+    <state width="1877" height="272" key="GridCell.Tab.1.center" timestamp="1643016072743">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642683012569" />
+    <state width="1877" height="272" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643016072743" />
     <state width="1877" height="461" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="272" key="GridCell.Tab.1.left" timestamp="1642683012569">
+    <state width="1877" height="272" key="GridCell.Tab.1.left" timestamp="1643016072743">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642683012569" />
+    <state width="1877" height="272" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643016072743" />
     <state width="1877" height="461" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="272" key="GridCell.Tab.1.right" timestamp="1642683012569">
+    <state width="1877" height="272" key="GridCell.Tab.1.right" timestamp="1643016072743">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642683012569" />
+    <state width="1877" height="272" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643016072743" />
     <state width="1877" height="461" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
     <state x="2104" y="86" key="MergeDialog" timestamp="1637671223530">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -410,10 +748,10 @@
     </state>
     <state x="2381" y="163" key="SettingsEditor/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640597661069" />
     <state x="2381" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639552282059" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1641470262668">
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1643002941517">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1641470262668" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643002941517" />
     <state x="2472" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640782088833" />
     <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639662032087" />
     <state x="2683" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637671235860">
@@ -433,9 +771,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633958419621" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1640067559323">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="623" y="223" width="672" height="673" key="search.everywhere.popup" timestamp="1643009786516">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state x="623" y="223" width="672" height="673" key="search.everywhere.popup/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643009786516" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640067559323" />
   </component>
   <component name="XDebuggerManager">
@@ -505,6 +844,11 @@
           <url>file://$PROJECT_DIR$/src/tsp/hot100/Q34_在排序数组中查找元素的第一个和最后一个位置.java</url>
           <line>69</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zuoshen/interview/classic4/Code07_TopKTimesRealTime.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
