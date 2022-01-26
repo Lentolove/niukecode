@@ -11,7 +11,7 @@ public class Q_二分法 {
 //        System.out.println(searchLeft(nums2, 8));
 //        System.out.println(searchRight(nums2, 8));
 
-        zuoShenSearchLeft(nums2, 8);
+        zuoShenSearchLeft(nums2, 15);
         zuoShenSearchRight(nums2, 8);
 
     }

@@ -1,7 +1,5 @@
 package zuoshen.jinjie;
 
-import zuoshen.tree.Section7;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,7 +48,11 @@ public class Section3_KMP {
 
 
     /**
-     * 获取 match 字符串的前缀和
+     * 获取 match 字符串的前缀和：
+     * 前缀和的意思：给定字符串"abcabctx"，0位置规定为-1,1位置为0
+     * 1.next[i]表示[0,i-1]的字符的最长前缀的长度：[0,i-1]中，next[4]的前缀为"abca"
+     * 2.前缀为"abca",1.长度不能超过自身，前缀与后坠相等, 0-0:a 和3-3:a 所以next[4]位置最长前缀和为1
+     * 3.next[5],"abcabc"最长前缀和：0-1:ab，3-4：ab，所以最长前缀和为2
      * match:  "a  b  c  a  b  c  t  x"
      * next:  [-1, 0, 0, 0, 1, 2, 3, 0]
      */
