@@ -65,7 +65,7 @@ public class Code07_TopKTimesRealTime {
                         nodeIndexMap.put(heap[0],-1);
                         nodeIndexMap.put(curNode,0);
                         heap[0] = curNode;
-                        heapify(0,heapSize++);
+                        heapify(0,heapSize);
                     }
                 }else {
                     //堆没有满，第一次加入
@@ -79,6 +79,7 @@ public class Code07_TopKTimesRealTime {
                 heapify(preIndex,heapSize);
             }
         }
+
 
         /**
          * 打印前k个大小
