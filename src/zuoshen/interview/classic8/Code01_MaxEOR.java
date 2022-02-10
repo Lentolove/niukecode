@@ -1,4 +1,4 @@
-package zuoshen.interview.classic08;
+package zuoshen.interview.classic8;
 
 /**
  * 左神：求子数组的最大异或和
