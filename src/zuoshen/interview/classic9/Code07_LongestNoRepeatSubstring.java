@@ -2,8 +2,14 @@ package zuoshen.interview.classic9;
 
 import java.util.HashMap;
 
+/**
+ * 左神：在一个字符串中找到没有重复字符子串中最长的长度：
+ * eg：abcabcbb 没有重复字符的最长子串是 abc,长度为 3
+ * bbbbb,答案是b,长度为是1
+ * pwwkew，答案是wke，长度是3
+ * 要求：答案必须是子串，"pwke"不是子串
+ */
 public class Code07_LongestNoRepeatSubstring {
-
 
     public static int maxUnique(String str) {
         if (str == null || str.length() == 0) return 0;
