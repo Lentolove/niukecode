@@ -15,10 +15,10 @@ public class Code05_DungeonGame {
     public static int process(int[][] matrix, int N, int M, int row, int col) {
         //1.如果到达了左下角
         if (row == N - 1 && col == M - 1) {
-            //如果当前格子的hp值是正的，直接返回-1,否则需要返回当前格子的好血量 + 1,至少保证一格血通关
+            //如果当前格子的hp值是正的，直接返回1,否则需要返回当前格子的好血量 + 1,至少保证一格血通关
             return matrix[row][col] < 0 ? (-matrix[row][col] + 1) : 1;
         }
-        //2.到达最后一行,那只能往后走
+        //2.到达最后一行,那只能往右走
         if (row == N - 1) {
             //2.1 右边需要的hp
             int rightNeed = process(matrix, N, M, row, col + 1);
