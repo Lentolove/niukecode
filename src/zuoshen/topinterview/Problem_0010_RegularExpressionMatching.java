@@ -176,11 +176,24 @@ public class Problem_0010_RegularExpressionMatching {
     }
 
 
+    public static boolean isMatch4(String s, String p) {
+        if (s == null || p == null) return false;
+        char[] str = s.toCharArray();
+        char[] par = p.toCharArray();
+        if (!isValid(str, par)) return false;
+        int N = str.length;
+        int M = par.length;
+        boolean[][] dp = new boolean[N + 1][M + 1];
+        return false;
+
+    }
+
+
     public static void main(String[] args) {
         String s = "aab";
         String p = "a*aab";
-        System.out.println(isMatch1(s,p));
-        System.out.println(isMatch2(s,p));
+        System.out.println(isMatch1(s, p));
+        System.out.println(isMatch2(s, p));
     }
 
 
