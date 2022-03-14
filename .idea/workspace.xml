@@ -19,24 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011fd72f-4c17-42da-ae3d-2c3a76bdeba1" name="Default Changelist" comment="1.同步代码">
-      <change afterPath="$PROJECT_DIR$/src/tsp/Q_二分法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Q297_二叉树的序列化与反序列化.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Q312_戳气球.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Q34_在排序数组中查找元素的第一个和最后一个位置.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Q581_最短无序连续子数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsp/hot100/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/Section12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/sort/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/sort/Q1_异或运算.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/sort/Section1_排序算法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/tree/Section7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloadfiles.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/二分法.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/tsp/sort/二分法.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsp/sort/二分法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsp/sort/二分法.java" afterDir="false" />
-    </list>
+    <list default="true" id="011fd72f-4c17-42da-ae3d-2c3a76bdeba1" name="Default Changelist" comment="2.更新课程6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +77,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Section12">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q_二分法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tsp.Q_二分法" />
       <module name="niukecode" />
@@ -155,19 +151,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -447,5 +430,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/niukecode$Solution3.ic" NAME="Solution3 Coverage Results" MODIFIED="1645456347344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>huawei.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/niukecode$Q3_.ic" NAME="Q3_无重复字符的最长子串 Coverage Results" MODIFIED="1644848748137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tsp.hot100.*</FILTER>
+    </SUITE>
   </component>
 </project>
