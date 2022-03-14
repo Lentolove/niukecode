@@ -208,8 +208,8 @@ public class Section1_排序算法 {
 
     /**
      * 左神快排：基于荷兰问题上进一步排序
-     * 时间复杂度：O(logN)
-     * 空间复杂度：O(logN)
+     * 时间复杂度：O(NlogN)
+     * 空间复杂度：O(NlogN)
      * 稳定性：不稳定
      */
     public static void quickSort(int[] arr) {
@@ -231,7 +231,7 @@ public class Section1_排序算法 {
 
     /**
      * partition过程，这是一个处理 arr[l,r]的过程
-     * 默认以 p = arr[r]做划分，分成三部分  <p  ==p  >p
+     * 默认以 p = arr[r]做划分，分成三部分  <p  =p  >p
      * 返回的是中间等于区域(左边界，右边界)，所以这里反回了一个长度为2的数组res
      */
     public static int[] partition(int[] arr, int l, int r) {

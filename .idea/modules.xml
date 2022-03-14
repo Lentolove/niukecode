@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/niukecode.iml" filepath="$PROJECT_DIR$/niukecode.iml" />
+      <module fileurl="file://D:/software_for_code/Android/Android_JGS/GitHub/zuo-algorithm/trainingcamp003/src/trainingcamp003.iml" filepath="D:/software_for_code/Android/Android_JGS/GitHub/zuo-algorithm/trainingcamp003/src/trainingcamp003.iml" />
     </modules>
   </component>
 </project>

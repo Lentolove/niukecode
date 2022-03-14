@@ -1,11 +1,20 @@
 package zuoshen;
 
+import java.util.Arrays;
+
 public class Section12 {
 
 
     public static void main(String[] args) {
-        System.out.println(walk(7, 4, 9, 5));
-        System.out.println(walkDp(7, 4, 9, 5));
+//        System.out.println(walk(7, 4, 9, 5));
+//        System.out.println(walkDp(7, 4, 9, 5));
+
+
+        //硬币数量
+        int[] arr = {1,2,5};
+        System.out.println(minCoin1(arr,11));
+        System.out.println(minCoin2Dp(arr,11));
+        System.out.println(minCoin3Dp(arr,11));
     }
 
     /*****************机器人到达指定位置的方法数*************************/
@@ -68,5 +77,116 @@ public class Section12 {
         //移动走K步，起始位置是M有多少种方法。
         return dp[K][M];
     }
+
+
+    /**********************跳跃游戏************************/
+
+    /**
+     * 左神：跳跃到目的点的最少步数
+     * 定义三个变量，jump 表示跳跃次数，cur 表示当前到的距离，next 表示如果在此位置多跳一步能达到的最远距离
+     */
+    public static int jump(int[] arr) {
+        int jump = 0, cur = 0, next = 0;
+        for (int i = 0; i < arr.length; i++) {
+            //1.如果当前位置小于 i ，说明我必须跳一步了
+            if (cur < i) {
+                jump++;
+                //next记录是的
+                cur = next;
+            }
+            next = Math.max(next, i + arr[i]);
+        }
+        return jump;
+    }
+
+
+    /*********************换钱的最少货币数量********************************/
+
+    /**
+     * 左神：换钱的最少货币数量
+     *
+     * @param arr    不同面值的货币，数量不限
+     * @param target 目标要凑的金额
+     * @return 返回需要的最少的货币数量
+     */
+    public static int minCoin1(int[] arr, int target) {
+        if (arr == null || arr.length == 0 || target < 0) return -1;
+        return process1(arr, 0, target);
+    }
+
+    /**
+     * @param i 表示当前换哪种硬币
+     */
+    public static int process1(int[] arr, int i, int target) {
+        //1.已经没有可选的面值了，i 已经来到 arr 的末尾
+        if (i == arr.length) {
+            //如果此时 target 为 0，说明刚好凑齐，返回 0 张, 否则返回 - 1
+            return target == 0 ? 0 : -1;
+        }
+        //最少张数，初始为 - 1,
+        int res = -1;
+        //依次尝试换取当前货币i的张数，直到超过了目标值
+        for (int k = 0; k * arr[i] <= target; k++) {
+            //1.选择了 k 张 arr[i] 面值的货币，则还需要 target - k * arr[i]
+            //2.剩下的从 i + 1位置以后去选择货币,后续返回我 nextCount 货币数量，如果为 - 1，说明当前选择无效
+            int nextCount = process1(arr, i + 1, target - k * arr[i]);
+            if (nextCount != -1) {
+                //说明当前选择有效,货币数量为 nextCount + k;
+                int curCount = nextCount + k;
+                if (res == -1) res = curCount;
+                res = Math.min(res, curCount);
+            }
+        }
+        return res;
+    }
+
+    public static int minCoin3Dp(int[] arr,int target){
+        int n = arr.length;
+        int[] dp = new int[target + 1];
+        Arrays.fill(dp,target + 1);
+        dp[0] = 0;
+        for (int i = 1; i <= target; i++){
+            for (int k : arr) {
+                if (i >= k) {
+                    //可以选择当前硬币
+                    dp[i] = Math.min(dp[i], dp[i - k] + 1);
+                }
+            }
+        }
+        return dp[target];
+    }
+
+
+
+    public static int minCoin2Dp(int[] arr, int target) {
+        if (arr == null || arr.length == 0 || target < 0) return -1;
+        int n = arr.length;
+        int[][] dp = new int[n + 1][target + 1];
+        //设置最后一排的初始值,因为最后一排，是不存在这样的硬币,只有target为0的时候才满足情况dp[n][0] = 0;
+        for (int col = 1; col <= target; col++) {
+            dp[n][col] = -1;
+        }
+        //由递归方法可知，由底层向上推
+        for (int i = n - 1; i >= 0; i--) {//从低往上计算每一行
+            for (int rest = 0; rest <= target; rest++) {
+                //初始值先设置 dp[i][rest] = - 1，表示无效
+                dp[i][rest] = -1;
+                if (dp[i + 1][rest] != -1) {
+                    //下一层能凑到 rest 面值方案存在，那么可以直接继承过来该方案，再去判断是否有更优解
+                    dp[i][rest] = dp[i + 1][rest];
+                }
+                //如果左边的位置不越界，且有效
+                if (rest - arr[i] >= 0 && dp[i][rest - arr[i]] != -1) {
+                    if (dp[i][rest] == -1) {//之前值无效
+                        dp[i][rest] = dp[i][rest - arr[i]] + 1;
+                    } else {
+                        dp[i][rest] = Math.min(dp[i][rest], dp[i][rest - arr[i]] + 1);
+                    }
+                }
+            }
+        }
+        return dp[0][target];
+    }
+
 
 }
