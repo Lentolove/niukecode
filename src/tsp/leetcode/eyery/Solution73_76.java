@@ -1,6 +1,6 @@
 package tsp.leetcode.eyery;
 
-import javafx.util.Pair;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -83,53 +83,53 @@ public class Solution73_76 {
      * 定义一个 Pair<int,Character> 存储 T 中包含的字符在 S 中的索引下标
      * file_list = [(0,'A'),(1,'B')...  ]
      */
-    public String minWindow1(String S, String T) {
-        if (S.length() == 0 || T.length() == 0) return "";
-        Map<Character, Integer> dicT = new HashMap<>();
-        for (int i = 0; i < T.length(); i++) {
-            dicT.put(T.charAt(i), dicT.getOrDefault(T.charAt(i), 0) + 1);
-        }
-        int require_len = dicT.size();
-        //将 S 中的所有字符及其索引过滤到一个新列表中。过滤标准是字符应该出现在  T 中。
-        List<Pair<Integer, Character>> list = new ArrayList<>();
-        for (int i = 0; i < S.length(); i++) {
-            char c = S.charAt(i);
-            if (dicT.containsKey(c)) {
-                list.add(new Pair<>(i, c));
-            }
-        }
-        //定义滑动串口的指针
-        int l = 0, r = 0, match = 0;
-        //定义一个 windCounts 存储 S 中的每一个字符
-        Map<Character, Integer> windCounts = new HashMap<>();
-        int[] ans = {-1,0,0};
-        while (r<S.length()){
-            char c = list.get(r).getValue();
-            int count = windCounts.getOrDefault(c,0);
-            windCounts.put(c,count+1);
-            if (dicT.containsKey(c)&&windCounts.get(c).intValue()==dicT.get(c).intValue()){
-                match++;
-            }
-            while (l<=r&&match==require_len){
-                c = list.get(l).getValue();
-                //更新最小窗口和指针
-                int end = list.get(r).getKey();
-                int start = list.get(l).getKey();
-                if (ans[0]==-1||end-start+1<ans[0]){
-                    ans[0] = end - start +1;
-                    ans[1] = start;
-                    ans[2] = end;
-                }
-                windCounts.put(c,windCounts.get(c)-1);
-                if (dicT.containsKey(c)&&windCounts.get(c).intValue()<dicT.get(c).intValue()){
-                    match--;
-                }
-                l++;
-            }
-            r++;
-        }
-        return ans[0] == -1 ? "" : S.substring(ans[1], ans[2] + 1);
-    }
+//    public String minWindow1(String S, String T) {
+//        if (S.length() == 0 || T.length() == 0) return "";
+//        Map<Character, Integer> dicT = new HashMap<>();
+//        for (int i = 0; i < T.length(); i++) {
+//            dicT.put(T.charAt(i), dicT.getOrDefault(T.charAt(i), 0) + 1);
+//        }
+//        int require_len = dicT.size();
+//        //将 S 中的所有字符及其索引过滤到一个新列表中。过滤标准是字符应该出现在  T 中。
+//        List<Pair<Integer, Character>> list = new ArrayList<>();
+//        for (int i = 0; i < S.length(); i++) {
+//            char c = S.charAt(i);
+//            if (dicT.containsKey(c)) {
+//                list.add(new Pair<>(i, c));
+//            }
+//        }
+//        //定义滑动串口的指针
+//        int l = 0, r = 0, match = 0;
+//        //定义一个 windCounts 存储 S 中的每一个字符
+//        Map<Character, Integer> windCounts = new HashMap<>();
+//        int[] ans = {-1,0,0};
+//        while (r<S.length()){
+//            char c = list.get(r).getValue();
+//            int count = windCounts.getOrDefault(c,0);
+//            windCounts.put(c,count+1);
+//            if (dicT.containsKey(c)&&windCounts.get(c).intValue()==dicT.get(c).intValue()){
+//                match++;
+//            }
+//            while (l<=r&&match==require_len){
+//                c = list.get(l).getValue();
+//                //更新最小窗口和指针
+//                int end = list.get(r).getKey();
+//                int start = list.get(l).getKey();
+//                if (ans[0]==-1||end-start+1<ans[0]){
+//                    ans[0] = end - start +1;
+//                    ans[1] = start;
+//                    ans[2] = end;
+//                }
+//                windCounts.put(c,windCounts.get(c)-1);
+//                if (dicT.containsKey(c)&&windCounts.get(c).intValue()<dicT.get(c).intValue()){
+//                    match--;
+//                }
+//                l++;
+//            }
+//            r++;
+//        }
+//        return ans[0] == -1 ? "" : S.substring(ans[1], ans[2] + 1);
+//    }
 
 
     public static void main(String[] args) {
