@@ -46,11 +46,14 @@ public class Problem_0124_BinaryTreeMaximumPathSum {
         }
     }
 
-
+    /**
+     * 至少包含一个节点
+     */
     public int maxPathSum(TreeNode root) {
         if (root == null) return 0;
         return process(root).maxPathSum;
     }
+
 
     private Info process(TreeNode x){
         if (x == null){
