@@ -1,5 +1,7 @@
 package zuoshen.topinterview;
 
+import java.util.Stack;
+
 /**
  * author : tsp
  * Date : 2022/3/27
@@ -33,8 +35,45 @@ package zuoshen.topinterview;
  */
 public class Problem_0150_EvaluateReversePolishNotation {
 
-
+    /**
+     * 题目：逆波兰表达式计算
+     * ["2","1","+","3","*"]
+     * 借助栈来实现，遇到符号弹出计算
+     */
     public int evalRPN(String[] tokens) {
+        Stack<Integer> stack = new Stack<>();
+        for (String s : tokens) {
+            if (s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/")){
+                int b = stack.pop();
+                int a = stack.pop();
+                int ans = compute(a, b, s);
+                stack.add(ans);
+            }else {
+                stack.add(Integer.parseInt(s));
+            }
+        }
+        return stack.peek();
+    }
 
+    /**
+     * 计算
+     */
+    private int compute(int a, int b, String op) {
+        int ans = 0;
+        switch (op) {
+            case "+":
+                ans = a + b;
+                break;
+            case "-":
+                ans = a - b;
+                break;
+            case "*":
+                ans = a * b;
+                break;
+            case "/":
+                ans = a / b;
+                break;
+        }
+        return ans;
     }
 }
