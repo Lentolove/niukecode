@@ -13,6 +13,6 @@ public class Code01_SlidingWindowMaxArray {
      *
      */
     public static int[] getMaxWindow(int[] arr, int w) {
-
+        return null;
     }
 }
