@@ -17,7 +17,6 @@ public class Code03_MonotonousStack {
      * 单调栈问题：在数组中想找到一个数，左边和右边比这个数小、且离这个数最近的位置
      * 如果对每一个数都想求到这样的信息，能不能整体代价达到O(n)?
      * eg: arr = [3,1,4,5,3,7]
-     * [[-1,1],[,-1,-1],[2,4],[4,-1]]
      * <p>
      * 思路：借助栈来实现，假定数组中不包含重复元素，步骤如下：
      * 1.栈内存储的是索引，保持栈内索引对应的值严格单调递增。
@@ -44,6 +43,36 @@ public class Code03_MonotonousStack {
         }
         //最后再次结算栈内元素，没有元素让其弹出了，它的右边没有比它小的元素，否则它一定在之前的过程中被弹出计算了
         //eg:[1,2,3,4,5]
+        while (!stack.isEmpty()) {
+            int index = stack.pop();
+            int preMin = stack.isEmpty() ? -1 : stack.peek();
+            result[index][0] = preMin;
+            result[index][1] = -1;
+        }
+        return result;
+    }
+
+
+
+    public static int[][] getNearLessNoRepeat1(int[] arr) {
+        if (arr == null || arr.length == 0) return null;
+        int n = arr.length;
+        int[][] result = new int[n][2];
+        //栈中存放的索引，索引对应值保持单调递增
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < n; i++) {
+            while (!stack.isEmpty() && arr[stack.peek()] < arr[i]) {
+                //当前元素使得栈内元素无法保持单调次增，则开始结算栈内元素
+                int index = stack.pop();
+                int preMin = stack.isEmpty() ? -1 : stack.peek();
+                result[index][0] = preMin;
+                result[index][1] = i;
+            }
+            //结算完成后，将当前元素入栈
+            stack.add(i);
+        }
+        //最后再次结算栈内元素，没有元素让其弹出了，它的右边没有比它小的元素，否则它一定在之前的过程中被弹出计算了
+        //eg:[8,6,4,2]
         while (!stack.isEmpty()) {
             int index = stack.pop();
             int preMin = stack.isEmpty() ? -1 : stack.peek();
@@ -103,18 +132,53 @@ public class Code03_MonotonousStack {
     }
 
 
-    public static void main(String[] args) {
-//        int[] arr = {3, 1, 4, 5, 2, 7};
-//        int[][] result = getNearLessNoRepeat(arr);
-//        for (int[] ints : result) {
-//            System.out.println(Arrays.toString(ints));
-//        }
-
-        int[] arr2 = {3,2,3,4,2,4,5};
-        int[][] result2 = getNearLess(arr2);
-        for (int[] ans : result2) {
-            System.out.println(Arrays.toString(ans));
+    public static int[][] violenceMethod(int[] arr) {
+        if (arr == null || arr.length == 0) return null;
+        int n = arr.length;
+        int[][] ans = new int[n][2];
+        for (int i = 0; i < n; i++) {
+            int leftIndex = -1, rightIndex = -1;
+            for (int l = i - 1; l >= 0; l--) {
+                if (arr[l] < arr[i]){
+                    leftIndex = l;
+                    break;
+                }
+            }
+            for (int r = i + 1; r < n; r++) {
+                if (arr[r] < arr[i]){
+                    rightIndex = r;
+                    break;
+                }
+            }
+            ans[i][0] = leftIndex;
+            ans[i][1] = rightIndex;
         }
+        return ans;
+    }
+
+
+    public static void main(String[] args) {
+        int[] arr = {3, 1, 4, 5, 2, 7};
+//        int[][] result = getNearLessNoRepeat(arr);
+//        int[][] result2 = violenceMethod(arr);
+//        for (int i = 0; i < arr.length; i++) {
+//            int[] ans1 = result[i];
+//            int[] ans2 = result2[i];
+//            if (ans1[0] != ans2[0] && ans1[1] != ans2[1]){
+//                System.out.println("答案错误，退出");
+//            }
+//        }
+        System.out.println("执行完成");
+        int[][] result = getNearLessNoRepeat1(arr);
+        for (int[] ints : result) {
+            System.out.println(Arrays.toString(ints));
+        }
+
+//        int[] arr2 = {3,2,3,4,2,4,5};
+//        int[][] result2 = getNearLess(arr2);
+//        for (int[] ans : result2) {
+//            System.out.println(Arrays.toString(ans));
+//        }
 
     }
 

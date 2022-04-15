@@ -28,11 +28,11 @@ public class Code01_ChooseWork {
     }
 
     /**
-     * 1.按照难度从小打到进行排序，难度一样的，报酬从大到小排序
+     * 1.按照难度从小到大进行排序，难度一样的，报酬从大到小排序
      * 2.理论推导过滤：
      * 2.1 难度一样，过滤掉报酬低的，只保留第一个最高的报酬，因为难度一样，我肯定选择最高的报酬的工作
      * 2.2 根据报酬进行排序，难度是升序，报酬也必须升序，因为我不可能选择难度更高，报酬却低的工作
-     * 2.3 经过上述两个步骤后，难度升序，报酬升序，单调底层，用有序表
+     * 2.3 经过上述两个步骤后，难度升序，报酬升序，单调递增，用有序表
      */
     public static int[] maxSalary(Job[] jobArray, int[] ability) {
         if (jobArray == null || jobArray.length == 0 || ability == null || ability.length == 0) return new int[0];

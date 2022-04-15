@@ -36,8 +36,8 @@ public class Code01_TopKSumCrossTwoArrays {
      * 思路：两个数组有序，将 arr1 和 arr2 看成一张二维表。最大的值就是 arr1[n-1] + arr2[m - 1]
      * 1.类比于二维蓄水池问题的思路，既然是求topK问题，联想到用堆来解决。
      * 2.定义 Node(int l1,int l2,int sum)按照 sum 实现的大根堆，保存前 topK 个和。
-     * 3.初始将最大位置的 Node(n-1,m-2,arr1[n-1] + arr2[m-1]) 加入到小根堆中。
-     * 4.每次从小根堆中弹出的时候记录值，同时将Node的左边和上边的节点加入到小根堆中，并利用一个二维表来记录
+     * 3.初始将最大位置的 Node(n-1,m-1,arr1[n-1] + arr2[m-1]) 加入到大根堆中。
+     * 4.每次从小根堆中弹出的时候记录值，同时将Node的左边和上边的节点加入到大根堆中，并利用一个二维表来记录
      * 是否已经添加过。
      */
     public static int[] topKSum(int[] arr1, int[] arr2, int topK) {
@@ -45,6 +45,7 @@ public class Code01_TopKSumCrossTwoArrays {
         //数据过滤
         int n = arr1.length;
         int m = arr2.length;
+        //arr1 50  arr2 20   1000   topk 100万
         topK = Math.min(topK, n * m);
         //定义大根堆
         PriorityQueue<Node> maxHeap = new PriorityQueue<>(new NodeCompare());

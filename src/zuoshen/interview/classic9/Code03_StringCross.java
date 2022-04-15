@@ -23,7 +23,7 @@ public class Code03_StringCross {
         char[] str2 = s2.toCharArray();
         char[] strAim = aim.toCharArray();
         int n = str1.length;
-        int m = s2.length();
+        int m = str2.length;
         boolean[][] dp = new boolean[n + 1][m + 1];
         dp[0][0] = true;//从str1中长度为0和str2长度为0构成aim长度为0
         //1.初始化第一行
@@ -56,8 +56,6 @@ public class Code03_StringCross {
         }
         return dp[n][m];
     }
-
-
 
 
     public static boolean isCross2(String str1, String str2, String aim) {

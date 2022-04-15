@@ -81,7 +81,7 @@ public class Code01_MaxEOR {
         }
 
         /**
-         * 该树结构手机了之前的异或和的结果构建了前缀树，现在为当前前缀和选择最佳路径
+         * 该树结构收集了之前的异或和的结果构建了前缀树，现在为当前前缀和选择最佳路径
          */
         public int maxXor(int sum){
             return 0;

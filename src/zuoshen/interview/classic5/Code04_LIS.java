@@ -3,7 +3,7 @@ package zuoshen.interview.classic5;
 import java.util.Arrays;
 
 /**
- * 左神：数组中最长递增子数组
+ * 左神：数组中最长递增子序列
  */
 public class Code04_LIS {
 

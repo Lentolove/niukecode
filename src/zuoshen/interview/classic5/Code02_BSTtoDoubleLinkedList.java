@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 左神：将二叉树搜索树转成双向链表
+ * 左神：将二叉搜索树转成双向链表
  * 思路：1.中序遍历是有序的，先用队列按照中序遍历存储各个节点，然后将节点连成双链表
  * 2.树的问题，直接用树形DP去解决
  */
@@ -55,7 +55,7 @@ public class Code02_BSTtoDoubleLinkedList {
 
 
     /**
-     * 树形DP：整棵树传承双向链表，返回头节点和尾节点
+     * 树形DP：整棵树转成双向链表，返回头节点和尾节点
      */
     public static class Info {
         public Node start;

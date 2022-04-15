@@ -13,7 +13,7 @@ import java.util.HashSet;
 public class Code05_SmallestUnFormedSum {
 
     /**
-     * 思路一：通过递归得到 arr 的所有子集和，然后找出第一个在自己和中未出现的数字
+     * 思路一：通过递归得到 arr 的所有子集和，然后找出第一个在子集和中未出现的数字
      */
     public static int unformedSum1(int[] arr) {
         if (arr == null || arr.length == 0) return 1;

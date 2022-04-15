@@ -38,7 +38,7 @@ public class Code3_ArraySum {
     }
 
     /**
-     * 左神：找到两个元素的和为 aim 的 三元组
+     * 左神：找到三个元素的和为 aim 的 三元组
      * 固定一个数字，剩下的为 aim - arr[i] 变成查找二元aim问题
      */
     public static List<int[]> getSumAimOf3(int[] arr, int aim) {
