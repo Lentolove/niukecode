@@ -24,7 +24,7 @@ public class Code03_MonotonousStack {
      * 3.当遇到一个元素 arr[i] < arr[stack.peek]，此时栈内元素 j 出栈，左边比 j 小的在它的下面
      * 右边比 j 小的就是让它出栈的元素，这样就能拿到左边离它最近和右边离它最近的位置
      */
-    public static int[][] getNearLessNoRepeat(int[] arr) {
+    public static int[][] getNearLessArray(int[] arr) {
         if (arr == null || arr.length == 0) return null;
         int n = arr.length;
         int[][] result = new int[n][2];
@@ -54,13 +54,14 @@ public class Code03_MonotonousStack {
 
 
 
-    public static int[][] getNearLessNoRepeat1(int[] arr) {
+    public static int[][] getNearUpperArray(int[] arr) {
         if (arr == null || arr.length == 0) return null;
         int n = arr.length;
         int[][] result = new int[n][2];
         //栈中存放的索引，索引对应值保持单调递增
         Stack<Integer> stack = new Stack<>();
         for (int i = 0; i < n; i++) {
+            //保证单调递减
             while (!stack.isEmpty() && arr[stack.peek()] < arr[i]) {
                 //当前元素使得栈内元素无法保持单调次增，则开始结算栈内元素
                 int index = stack.pop();
@@ -169,10 +170,10 @@ public class Code03_MonotonousStack {
 //            }
 //        }
         System.out.println("执行完成");
-        int[][] result = getNearLessNoRepeat1(arr);
-        for (int[] ints : result) {
-            System.out.println(Arrays.toString(ints));
-        }
+//        int[][] result = getNearLessNoRepeat1(arr);
+//        for (int[] ints : result) {
+//            System.out.println(Arrays.toString(ints));
+//        }
 
 //        int[] arr2 = {3,2,3,4,2,4,5};
 //        int[][] result2 = getNearLess(arr2);

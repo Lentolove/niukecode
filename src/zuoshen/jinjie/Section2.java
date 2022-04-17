@@ -8,9 +8,15 @@ public class Section2 {
     public static void main(String[] args) {
 //        System.out.println(horseJump(4, 5, 3));
 
-        System.out.println(fb1(8));
-        System.out.println(fb2(8));
-        System.out.println(fb3(8));
+//        System.out.println(fb1(8));
+
+//        System.out.println(fb2(6));
+
+        System.out.println(quickMi(3,8));
+        System.out.println(quickPow(3,8));
+
+//        System.out.println(fb2(8));
+//        System.out.println(fb3(8));
 //        System.out.println(horseJump2(4, 5, 3));
     }
 
@@ -92,6 +98,44 @@ public class Section2 {
     }
 
     /**
+     * 暴力递归改动态规划，一个可变参数，对应一维dp表
+     * 动态规划的过程，本质上就是填写 dp 表的过程
+     * 根据递推公式，找到 dp 表的以来关系，将 dp 表填写完成
+     */
+    public static int dp(int n) {
+        if (n <= 0) return 0;
+        if (n <= 2) return 1;
+        //1.有暴力递归可知，可变参数取值为[0,n]
+        int[] dp = new int[n + 1];
+        //2.下面来填写dp表，先填写初始位置，对应暴力递归的：if (n == 1 || n == 2) return 1;
+        dp[1] = 1;
+        dp[2] = 1;
+        //3.再填写普遍位置
+        for (int i = 3; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[n];
+    }
+
+
+    /**
+     * 动态规划2.0版本：空间压缩
+     */
+    public static int dp2(int n) {
+        if (n <= 0) return 0;
+        if (n <= 2) return 1;
+        int dpi_1 = 1;
+        int dpi_2 = 1;
+        for (int i = 3; i <= n; i++) {
+            int temp = dpi_1 + dpi_2;
+            dpi_1 = dpi_2;
+            dpi_2 = temp;
+        }
+        return dpi_1;
+    }
+
+
+    /**
      * 动态规划解法
      * 时间复杂度：O(n)
      */
@@ -108,10 +152,37 @@ public class Section2 {
         return two;
     }
 
+
+    public static int quickMi(int x,int n){
+        //未做输入参数检验
+        int sum = 1;
+        while (n != 0){
+            sum *= x;
+            n--;
+        }
+        return sum;
+    }
+
+
+    public static int quickPow(int x,int n){
+        int sum = 1;
+        while (n != 0){
+            //二进制中最后一个位置是否为1，是1就乘上去，是 0 就没必要
+            if ((n & 1) == 1){
+                sum *= x;
+            }
+            //n无符号右移
+            n >>>= 1;
+            x *= x;
+        }
+        return sum;
+    }
+
+
     /**
      * 斐波那契数列 logn 解法
      * 二阶递推：|a,b|
-     * |c,d|
+     *         |c,d|
      */
     public static int fb3(int n) {
         if (n < 1) return 0;
@@ -144,7 +215,6 @@ public class Section2 {
         }
         return res;
     }
-
 
     /**
      * 定义两个矩阵的相乘
