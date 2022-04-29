@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * KMP算法
  */
-public class Section3_KMP {
+public class  Section3_KMP {
 
     public static void main(String[] args) {
         System.out.println(getIndexOf("abc1234x", "c123"));

@@ -198,7 +198,7 @@ public class Problem_0044_WildcardMatching {
                     /**
                      * 优化过程思路： dp[2][3] = dp[2][4] | dp[3][4] | dp[4][4] | ....
                      * dp[1][3] = dp[1][4] | dp[2][4] | dp[3][4] | dp[4][4]....
-                     * dp[1][3] = dp[1][4] + dp[2][3]
+                     * dp[1][3] = dp[1][4] | dp[2][3]
                      */
                     dp[i][j] = dp[i][j + 1] | dp[i+ 1][j];
                 }
