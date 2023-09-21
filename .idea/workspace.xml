@@ -20,9 +20,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="011fd72f-4c17-42da-ae3d-2c3a76bdeba1" name="Default Changelist" comment="2.更新课程6">
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic08/Code01_MaxEOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic6/Code05_CompleteTreeNodeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/temp/LunarCalender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/temp/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsp/temp/Test3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_3_10,_22_06_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_3_10__22_06__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_3_11,_18_51_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_3_11__18_51__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/niukecode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/niukecode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/BrocketQuestion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/SortPop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/WordChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/honor/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/honor/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/huawei/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/huawei/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/huawei/Solution3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/huawei/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/listnode/ReverseListNode$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/listnode/ReverseListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/test/OuterClass$InnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/test/OuterClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q3_无重复字符的最长子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q4_寻找两个正序数组的中位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/hot100/Q5_最长回文子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/tsp/niuke/华为机试108题/Q4_字符串分隔.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic9/Code01_TopKSumCrossTwoArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic9/Code01_TopKSumCrossTwoArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic9/Code03_StringCross.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/interview/classic9/Code03_StringCross.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/jinjie/Section1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/jinjie/Section1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/jinjie/Section2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/jinjie/Section2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/topinterview/Problem_0010_RegularExpressionMatching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/topinterview/Problem_0010_RegularExpressionMatching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/niukecode/zuoshen/topinterview/Problem_0041_FirstMissingPositive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/niukecode/zuoshen/topinterview/Problem_0041_FirstMissingPositive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zuoshen/interview/classic1/Code01_CordCoverMaxPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zuoshen/interview/classic1/Code01_CordCoverMaxPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zuoshen/jinjie/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zuoshen/jinjie/Section1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +69,17 @@
         <option value="Interface" />
         <option value="package-info" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -57,31 +96,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/software_for_code/Android/Android_JGS/GitHub/zuo-algorithm/trainingcamp003/src" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tianchengping/code/tsp/niukecode/src/tsp/temp&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tsp/temp" />
       <recent name="F:\IDEA\niukecode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code01_MaxEOR">
+  <component name="RunManager" selected="Application.Code01_CordCoverMaxPoint">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code01_CordCoverMaxPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic1.Code01_CordCoverMaxPoint" />
+      <module name="niukecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zuoshen.interview.classic1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code01_MaxEOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic08.Code01_MaxEOR" />
       <module name="niukecode" />
@@ -95,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code01_SubArrayMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic6.Code01_SubArrayMaxSum" />
+    <configuration name="Section1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.jinjie.Section1" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zuoshen.interview.classic6.*" />
+          <option name="PATTERN" value="zuoshen.jinjie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,63 +163,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code02_SubMatrixMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic6.Code02_SubMatrixMaxSum" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="niukecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zuoshen.interview.classic6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code03_DeleteMinCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic6.Code03_DeleteMinCost" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tsp.Test2" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zuoshen.interview.classic6.*" />
+          <option name="PATTERN" value="tsp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code04_EditCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic6.Code04_EditCost" />
-      <module name="niukecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zuoshen.interview.classic6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code01_CordCoverMaxPoint" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Section1" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Code01_MaxEOR" />
-        <item itemvalue="Application.Code04_EditCost" />
-        <item itemvalue="Application.Code03_DeleteMinCost" />
-        <item itemvalue="Application.Code02_SubMatrixMaxSum" />
-        <item itemvalue="Application.Code01_SubArrayMaxSum" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +254,23 @@
       <workItem from="1641905766188" duration="1692000" />
       <workItem from="1641969613926" duration="2378000" />
       <workItem from="1642076932823" duration="102903000" />
+      <workItem from="1678529993283" duration="2833000" />
+      <workItem from="1678705370372" duration="4598000" />
+      <workItem from="1679626037215" duration="933000" />
+      <workItem from="1679732912486" duration="714000" />
+      <workItem from="1684297615968" duration="2000" />
+      <workItem from="1685003666200" duration="764000" />
+      <workItem from="1685435135538" duration="265000" />
+      <workItem from="1685931932983" duration="1853000" />
+      <workItem from="1686637355293" duration="3058000" />
+      <workItem from="1689765399134" duration="2072000" />
+      <workItem from="1690803856472" duration="638000" />
+      <workItem from="1690944733559" duration="4930000" />
+      <workItem from="1691407808195" duration="663000" />
+      <workItem from="1693207303999" duration="936000" />
+      <workItem from="1693289526296" duration="3210000" />
+      <workItem from="1693388143138" duration="320000" />
+      <workItem from="1694767451503" duration="4385000" />
     </task>
     <task id="LOCAL-00001" summary="1.同步代码">
       <created>1626873796403</created>
@@ -316,7 +358,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.同步代码" />
@@ -326,120 +367,6 @@
     <MESSAGE value="2.更新课程5" />
     <MESSAGE value="2.更新课程6" />
     <option name="LAST_COMMIT_MESSAGE" value="2.更新课程6" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1643176864692">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643176864692" />
-    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639365330247" />
-    <state x="2635" y="221" key="#xdebugger.evaluate" timestamp="1640090285655">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2635" y="221" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640090285655" />
-    <state width="439" height="463" key="DebuggerActiveHint" timestamp="1643014661953">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="439" height="463" key="DebuggerActiveHint/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643014661953" />
-    <state width="439" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640090283364" />
-    <state x="740" y="272" key="FileChooserDialogImpl" timestamp="1642751416242">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="740" y="272" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642751416242" />
-    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639662164449" />
-    <state width="1877" height="103" key="GridCell.Tab.0.bottom" timestamp="1643269530833">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="103" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643269530833" />
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640830531977" />
-    <state width="1877" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639733898700" />
-    <state width="1877" height="461" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="103" key="GridCell.Tab.0.center" timestamp="1643269530833">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="103" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643269530833" />
-    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640830531977" />
-    <state width="1877" height="149" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639733898699" />
-    <state width="1877" height="461" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="103" key="GridCell.Tab.0.left" timestamp="1643269530833">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="103" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643269530833" />
-    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640830531977" />
-    <state width="1877" height="149" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639733898699" />
-    <state width="1877" height="461" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402694" />
-    <state width="1877" height="103" key="GridCell.Tab.0.right" timestamp="1643269530833">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="103" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643269530833" />
-    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640830531977" />
-    <state width="1877" height="149" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639733898700" />
-    <state width="1877" height="461" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="272" key="GridCell.Tab.1.bottom" timestamp="1643263731302">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643263731302" />
-    <state width="1877" height="461" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402731" />
-    <state width="1877" height="272" key="GridCell.Tab.1.center" timestamp="1643263731302">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643263731302" />
-    <state width="1877" height="461" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="272" key="GridCell.Tab.1.left" timestamp="1643263731302">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643263731302" />
-    <state width="1877" height="461" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state width="1877" height="272" key="GridCell.Tab.1.right" timestamp="1643263731302">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643263731302" />
-    <state width="1877" height="461" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640327402700" />
-    <state x="2104" y="86" key="MergeDialog" timestamp="1637671223530">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2104" y="86" key="MergeDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637671223530" />
-    <state x="2515" y="280" key="MultipleFileMergeDialog" timestamp="1637671223536">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2515" y="280" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637671223536" />
-    <state x="600" y="219" width="835" height="593" key="NewModule_or_Project.wizard" timestamp="1642751437681">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="600" y="219" width="835" height="593" key="NewModule_or_Project.wizard/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1642751437681" />
-    <state x="2381" y="163" key="SettingsEditor" timestamp="1640597661069">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="2381" y="163" key="SettingsEditor/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640597661069" />
-    <state x="2381" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639552282059" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1643189125960">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643189125960" />
-    <state x="2472" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640782088833" />
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639662032087" />
-    <state x="2683" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637671235860">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2683" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637671235860" />
-    <state x="2610" y="277" key="extract.method.dialog" timestamp="1640596172485">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="2610" y="277" key="extract.method.dialog/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1640596172485" />
-    <state x="2610" y="279" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1638936955754" />
-    <state x="662" y="248" width="596" height="594" key="find.popup" timestamp="1643095558589">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="662" y="248" width="596" height="594" key="find.popup/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643095558589" />
-    <state x="2536" y="240" key="run.anything.popup" timestamp="1633958419621">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633958419621" />
-    <state x="623" y="223" width="672" height="673" key="search.everywhere.popup" timestamp="1643186667258">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="623" y="223" width="672" height="673" key="search.everywhere.popup/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1643186667258" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640067559323" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

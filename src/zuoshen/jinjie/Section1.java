@@ -15,15 +15,15 @@ public class Section1 {
         int[][] nearLess = getNearLess(arr);
         int max = getSubarrayMaxSum(arr);
         System.out.println(max);
-        for (int[] less : nearLess) {
-            System.out.println(Arrays.toString(less));
-            //[-1, 3]
-            //[-1, 3]
-            //[1, 3]
-            //[-1, -1]
-            //[3, 5]
-            //[3, -1]
-        }
+//        for (int[] less : nearLess) {
+//            System.out.println(Arrays.toString(less));
+//            //[-1, 3]
+//            //[-1, 3]
+//            //[1, 3]
+//            //[-1, -1]
+//            //[3, 5]
+//            //[3, -1]
+//        }
     }
 
     /**

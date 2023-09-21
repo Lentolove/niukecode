@@ -8,6 +8,9 @@ import java.util.Arrays;
  */
 public class Code01_CordCoverMaxPoint {
 
+
+
+
     /**
      * 思考：1.以绳子的末端来放在数轴上，从末端往左最多能覆盖到几个点。
      * 2.只用考虑数轴上的点，没有必要找不在数轴上的点。
@@ -77,22 +80,24 @@ public class Code01_CordCoverMaxPoint {
         return ans;
     }
 
+    private static final int RED = 1;//0x1
+    private static final int GREEN = 1<<1;//0x2
+    private static final int BLUE = 1<<2;//0x4
+    private static final int YELLOW = 1<<3;// 0x8
+    private static int mFlags = 0;
+
     public static void main(String[] args) {
-        int len = 100;
-        int max = 1000;
-        int testTime = 10000;
-        System.out.println("开始测试...");
-        for (int i = 0; i < testTime; i++) {
-            //绳子长度
-            int L = (int)(Math.random() * max);
-            int[] arr = generateArray(len,L);
-            int ans1 = maxPoint1(arr,L);
-            int ans2 = maxPoint2(arr,L);
-            if (ans1 != ans2){
-                System.out.println("出问题");
-                break;
-            }
-        }
+
+
+//        System.out.println(hasFlags(RED));
+//        System.out.println(hasFlags(GREEN));
+
+
     }
+
+    public static boolean hasFlags(int mask){
+        return (mFlags & mask) == mask;
+    }
+
 
 }
