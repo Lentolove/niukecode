@@ -112,7 +112,7 @@
       <recent name="F:\IDEA\niukecode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code01_CordCoverMaxPoint">
+  <component name="RunManager" selected="Application.Section12">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -137,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code01_MaxEOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.interview.classic08.Code01_MaxEOR" />
+    <configuration name="Section1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.jinjie.Section1" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zuoshen.interview.classic08.*" />
+          <option name="PATTERN" value="zuoshen.jinjie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Section1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuoshen.jinjie.Section1" />
+    <configuration name="Section12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuoshen.Section12" />
       <module name="niukecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zuoshen.jinjie.*" />
+          <option name="PATTERN" value="zuoshen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Section12" />
         <item itemvalue="Application.Code01_CordCoverMaxPoint" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Section1" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Code01_MaxEOR" />
       </list>
     </recent_temporary>
   </component>
